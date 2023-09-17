@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAGADEESH KUMAR GORLA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="Picture1.png" alt="JAGADEESH KUMAR GORLA" id="profile-pic">
+        <h1>JAGADEESH KUMAR GORLA</h1>
+        <p>Phone: 9980674333 | Email: gorlajagadeeshkumar@gmail.com</p>
+    </header>
+    <section id="objective">
+        <h2>CAREER OBJECTIVE:</h2>
+        <p>Business Analyst with over 7+ years of experience in the BPO, Mortgage, and banking domain, aiming to utilize my strong prioritization skills and analytical ability to achieve your company’s goals.</p>
+    </section>
+    <section id="skills">
+        <h2>SKILLS:</h2>
+        <div class="skill">
+            <span>Communication</span>
+            <div class="rating" style="width:90%;"></div>
+        </div>
+   
+    </section>
+
+</body>
+</html>
