@@ -13,7 +13,7 @@ body {
     border-radius: 10px;
     margin-bottom: 30px;
 }
-/* ... your existing CSS ... */
+
 
 /* Movies and Anime Section in a single row */
 .content-row {
@@ -24,11 +24,9 @@ body {
 }
 
 .movies, .anime {
-    flex: 1; /* This makes sure both take equal space */
+    flex: 1; 
     max-width: calc(50% - 10px); /* 10px is half of the gap for better spacing */
 }
-
-/* ... rest of your CSS ... */
 
 
 nav {
