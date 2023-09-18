@@ -6,6 +6,14 @@ body {
     color: #333;
 }
 
+header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
 #introduction {
     background-color: #3498db;
     padding: 20px;
@@ -14,20 +22,18 @@ body {
     margin-bottom: 30px;
 }
 
-
 /* Movies and Anime Section in a single row */
 .content-row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px; /* This creates a space between the two columns */
+    gap: 20px; 
 }
 
 .movies, .anime {
     flex: 1; 
-    max-width: calc(50% - 10px); /* 10px is half of the gap for better spacing */
+    max-width: calc(50% - 10px);
 }
-
 
 nav {
     text-align: center;
