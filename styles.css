@@ -6,68 +6,39 @@ body {
     color: #333;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 50px;
+#introduction {
     background-color: #3498db;
     padding: 20px;
     color: white;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
-#profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-h1, h2, h3 {
-    color: #2c3e50;
-}
-
-p {
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.skill-item, .job {
-    margin-bottom: 20px;
-}
-
-.skill-item span {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.skill-bar {
-    background: #e0e0e0; /* light gray */
-    height: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.rating {
-    background-color: #27ae60; /* green */
-    height: 100%;
-    border-radius: 10px 0 0 10px;
-    width: 0; /* Initially it's set to zero */
-}
-
-.job h3 {
-    color: #3498db;
-}
-
-.job p {
-    font-weight: bold;
-}
-
-footer {
-    margin-top: 50px;
+nav {
     text-align: center;
-    background-color: #2c3e50;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #3498db;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #3498db;
     color: white;
-    padding: 10px;
 }
