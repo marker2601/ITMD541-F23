@@ -6,3 +6,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
